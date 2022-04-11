@@ -5,7 +5,6 @@ import com.company.repository.CakeRepository;
 
 public class Main {
 
-
     private Main(String text) {
         CakeBuilder cakeBuilder = new CakeBuilder();
         CakeRepository cakeRepository = cakeBuilder.prepareCakes();
@@ -20,10 +19,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String stringBuilder =
-                "44 VS5\n" +
-                        "14 MB11\n" +
-                        "13 CF\n";
+        String stringBuilder = "44 VS5\n" + "14 MB11\n" + "13 CF\n" + "21 CB\n";
         new Main(stringBuilder);
     }
 }
